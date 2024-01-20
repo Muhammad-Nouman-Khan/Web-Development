@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #c7ebe4;
+}
+
+.nav{
+    background-color: rgb(86, 35, 86);
+    height: 75px;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-family: cursive;
+}
+
+.game-container{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.cell-container{
+
+    background-color: rgb(111, 205, 205);
+    display: grid;
+    grid-template-columns: repeat(3,10vw);
+    grid-template-rows: repeat(3,10vw);
+}
+
+.cell{
+    
+    border: 3px solid black;
+    font-size: 7vw;
+    text-align: center;
+    font-family:cursive;
+    
+}
+
+.cell:hover{
+    background-color: purple;
+    cursor: pointer;
+}
+
+.info-container{
+    
+    color: rgb(70, 26, 114);
+    background-color: rgb(225, 212, 225);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 5px;
+    gap: 2vw;
+}
+
+#resetBtn{
+    padding: 15px;
+    font-size: large;
+    font-weight: bold;
+    border: 5px solid purple;
+    background-color: rgb(232, 95, 118);
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#welcome{
+    margin-top: 1vw;
+    font-family: cursive;
+}
+#statusInfo{
+    font-size: 3vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#win-img{
+    display: none;
+}
+
+.br-0{
+    border-right: 0;
+}
+
+.bl-0{
+    border-left: 0;
+}
+
+.bb-0{
+    border-bottom: 0;
+}
+
+.bt-0{
+    border-top: 0;
+}

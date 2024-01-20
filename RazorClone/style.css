@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: border-box;
+    font-family: Arial;
+}
+
+.nav-bar{
+    height:61px;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    color: #888888;
+    justify-content: center;
+    justify-content: space-evenly;
+    border-bottom: 1px solid green;
+
+}
+
+.logo{
+    width: 35px;
+    height: 35.5px;
+}
+
+.offer{
+    height: 44px;
+    background-color: #555555;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.offer p{
+    font-size: 14px;
+    color: #EEEEEE;
+}
+
+.border:hover{
+    color:white;
+}
+
+.Content{
+    height: 700px;
+    background-color: pink;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    /* background-image: url("box1.webp"); */
+    background-size: cover;
+    border-bottom: 10px #555555 solid;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    background-color: orange;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    
+}
+#p1{
+    font-size: 0.65rem;
+    font-weight: 700;
+}
+#p2{
+    font-size: 0.8rem;
+    font-weight: bolder;
+}
+h1{ 
+    margin-top: 15px;
+    font-size: 3rem;
+}
+h3{
+    font-size: 1.5rem;
+    font-weight: lighter;
+    margin-top: 15px;
+}
+.options{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:15px;
+    
+}
+.options span{
+    font-size: 1.3rem;
+    margin-left: 25px;
+    font-weight: lighter;
+}
+.options span:hover{
+    text-decoration: underline;
+}
+.panel{
+
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #3d3c3c;
+    justify-content: space-evenly;
+    padding:0px;
+    
+}
+
+
+.boxes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:2px;
+    width: 49%;
+    height: 570px;
+    color:white;
+    background-color: red;
+}
+
+
+.panel1{
+    padding-top: 15px;
+    background-color: #000000;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom : #3d3c3c solid 1px;
+}
+ul a{
+    margin-top: 10px;
+    text-decoration: none;
+    color:#888888;
+}
+ul{
+   
+    display: flex;
+    flex-direction: column;
+}
+
+ul i{
+    margin-top: 10px;
+}
+
+.panel2{
+    padding:15px;
+    background-color: #000000;
+    color: #888888;
+    display: flex;
+    justify-content: space-evenly;
+}
